@@ -1,0 +1,1 @@
+/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/common-lisp/ros/moveo_moveit/msg/_package.lisp

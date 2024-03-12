@@ -1,0 +1,12 @@
+Symlinking /home/aristeujo/arm_pth/devel/./local_setup.sh
+Symlinking /home/aristeujo/arm_pth/devel/./_setup_util.py
+Symlinking /home/aristeujo/arm_pth/devel/./setup.sh
+Symlinking /home/aristeujo/arm_pth/devel/./setup.bash
+Symlinking /home/aristeujo/arm_pth/devel/./local_setup.bash
+Symlinking /home/aristeujo/arm_pth/devel/./setup.zsh
+Symlinking /home/aristeujo/arm_pth/devel/./cmake.lock
+Symlinking /home/aristeujo/arm_pth/devel/./local_setup.zsh
+Symlinking /home/aristeujo/arm_pth/devel/./env.sh
+Symlinking /home/aristeujo/arm_pth/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/aristeujo/arm_pth/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/aristeujo/arm_pth/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

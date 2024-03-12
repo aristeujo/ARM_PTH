@@ -1,0 +1,6 @@
+devel_space: /home/aristeujo/arm_pth/devel
+install: false
+install_space: /home/aristeujo/arm_pth/install
+profile: default
+source_space: /home/aristeujo/arm_pth/src
+workspace: /home/aristeujo/arm_pth

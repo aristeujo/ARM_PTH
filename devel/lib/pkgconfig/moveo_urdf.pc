@@ -1,0 +1,1 @@
+/home/aristeujo/arm_pth/devel/.private/moveo_urdf/lib/pkgconfig/moveo_urdf.pc

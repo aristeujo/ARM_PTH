@@ -1,0 +1,1 @@
+/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/roseus/ros/moveo_moveit/msg/ArmJointState.l

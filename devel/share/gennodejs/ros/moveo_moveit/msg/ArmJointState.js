@@ -1,0 +1,1 @@
+/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js
