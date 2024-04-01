@@ -67,14 +67,14 @@ set(moveo_moveit_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(moveo_moveit_config_SOURCE_PREFIX /home/aristeujo/arm_pth/src/ARM_PTH/moveo_moveit_config)
-  set(moveo_moveit_config_DEVEL_PREFIX /home/aristeujo/arm_pth/devel/.private/moveo_moveit_config)
+  set(moveo_moveit_config_SOURCE_PREFIX /home/graest/ARM_PTH/src/ARM_PTH/moveo_moveit_config)
+  set(moveo_moveit_config_DEVEL_PREFIX /home/graest/ARM_PTH/devel/.private/moveo_moveit_config)
   set(moveo_moveit_config_INSTALL_PREFIX "")
   set(moveo_moveit_config_PREFIX ${moveo_moveit_config_DEVEL_PREFIX})
 else()
   set(moveo_moveit_config_SOURCE_PREFIX "")
   set(moveo_moveit_config_DEVEL_PREFIX "")
-  set(moveo_moveit_config_INSTALL_PREFIX /home/aristeujo/arm_pth/install)
+  set(moveo_moveit_config_INSTALL_PREFIX /home/graest/ARM_PTH/install)
   set(moveo_moveit_config_PREFIX ${moveo_moveit_config_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/aristeujo/arm_pth/install/lib;/home/aristeujo/arm_pth/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/graest/ARM_PTH/install/lib;/home/graest/ARM_PTH/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

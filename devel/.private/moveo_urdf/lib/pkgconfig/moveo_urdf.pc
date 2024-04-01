@@ -1,4 +1,4 @@
-prefix=/home/aristeujo/arm_pth/devel/.private/moveo_urdf
+prefix=/home/graest/ARM_PTH/devel/.private/moveo_urdf
 
 Name: moveo_urdf
 Description: Description of moveo_urdf

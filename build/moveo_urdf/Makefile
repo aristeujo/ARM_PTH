@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aristeujo/arm_pth/src/ARM_PTH/moveo_urdf
+CMAKE_SOURCE_DIR = /home/graest/ARM_PTH/src/ARM_PTH/moveo_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aristeujo/arm_pth/build/moveo_urdf
+CMAKE_BINARY_DIR = /home/graest/ARM_PTH/build/moveo_urdf
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aristeujo/arm_pth/build/moveo_urdf/CMakeFiles /home/aristeujo/arm_pth/build/moveo_urdf/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/graest/ARM_PTH/build/moveo_urdf/CMakeFiles /home/graest/ARM_PTH/build/moveo_urdf/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aristeujo/arm_pth/build/moveo_urdf/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/graest/ARM_PTH/build/moveo_urdf/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

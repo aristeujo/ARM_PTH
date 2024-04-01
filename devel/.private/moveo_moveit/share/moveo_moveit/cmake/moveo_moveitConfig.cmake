@@ -67,14 +67,14 @@ set(moveo_moveit_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(moveo_moveit_SOURCE_PREFIX /home/aristeujo/arm_pth/src/ARM_PTH/moveo_moveit)
-  set(moveo_moveit_DEVEL_PREFIX /home/aristeujo/arm_pth/devel/.private/moveo_moveit)
+  set(moveo_moveit_SOURCE_PREFIX /home/graest/ARM_PTH/src/ARM_PTH/moveo_moveit)
+  set(moveo_moveit_DEVEL_PREFIX /home/graest/ARM_PTH/devel/.private/moveo_moveit)
   set(moveo_moveit_INSTALL_PREFIX "")
   set(moveo_moveit_PREFIX ${moveo_moveit_DEVEL_PREFIX})
 else()
   set(moveo_moveit_SOURCE_PREFIX "")
   set(moveo_moveit_DEVEL_PREFIX "")
-  set(moveo_moveit_INSTALL_PREFIX /home/aristeujo/arm_pth/install)
+  set(moveo_moveit_INSTALL_PREFIX /home/graest/ARM_PTH/install)
   set(moveo_moveit_PREFIX ${moveo_moveit_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(moveo_moveit_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/aristeujo/arm_pth/devel/.private/moveo_moveit/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/graest/ARM_PTH/devel/.private/moveo_moveit/include;/usr/include/eigen3 " STREQUAL " ")
   set(moveo_moveit_INCLUDE_DIRS "")
-  set(_include_dirs "/home/aristeujo/arm_pth/devel/.private/moveo_moveit/include;/usr/include/eigen3")
+  set(_include_dirs "/home/graest/ARM_PTH/devel/.private/moveo_moveit/include;/usr/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/aristeujo/arm_pth/devel/.private/moveo_moveit/include;/usr/include
         message(FATAL_ERROR "Project 'moveo_moveit' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'moveo_moveit' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/aristeujo/arm_pth/src/ARM_PTH/moveo_moveit/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'moveo_moveit' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/graest/ARM_PTH/src/ARM_PTH/moveo_moveit/${idir}'.  ${_report}")
     endif()
     _list_append_unique(moveo_moveit_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib;/home/aristeujo/arm_pth/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/graest/ARM_PTH/devel/.private/moveo_moveit/lib;/home/graest/ARM_PTH/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

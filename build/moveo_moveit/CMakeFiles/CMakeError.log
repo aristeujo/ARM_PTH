@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp
+Change Dir: /home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2368a/fast && /usr/bin/make -f CMakeFiles/cmTC_2368a.dir/build.make CMakeFiles/cmTC_2368a.dir/build
-make[1]: Entrando no diretório '/home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2368a.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2368a.dir/src.c.o   -c /home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2368a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2368a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_2368a.dir/src.c.o  -o cmTC_2368a 
-/usr/bin/ld: CMakeFiles/cmTC_2368a.dir/src.c.o: na função "main":
+Run Build Command(s):/usr/bin/make cmTC_4aced/fast && /usr/bin/make -f CMakeFiles/cmTC_4aced.dir/build.make CMakeFiles/cmTC_4aced.dir/build
+make[1]: Entrando no diretório '/home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4aced.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4aced.dir/src.c.o   -c /home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4aced
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aced.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_4aced.dir/src.c.o  -o cmTC_4aced 
+/usr/bin/ld: CMakeFiles/cmTC_4aced.dir/src.c.o: na função "main":
 src.c:(.text+0x46): referência não definida para "pthread_create"
 /usr/bin/ld: src.c:(.text+0x52): referência não definida para "pthread_detach"
 /usr/bin/ld: src.c:(.text+0x63): referência não definida para "pthread_join"
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_2368a.dir/build.make:87: cmTC_2368a] Erro 1
-make[1]: Saindo do diretório '/home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_2368a/fast] Erro 2
+make[1]: *** [CMakeFiles/cmTC_4aced.dir/build.make:87: cmTC_4aced] Erro 1
+make[1]: Saindo do diretório '/home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4aced/fast] Erro 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp
+Change Dir: /home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e8967/fast && /usr/bin/make -f CMakeFiles/cmTC_e8967.dir/build.make CMakeFiles/cmTC_e8967.dir/build
-make[1]: Entrando no diretório '/home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8967.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e8967.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e8967
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8967.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e8967.dir/CheckFunctionExists.c.o  -o cmTC_e8967  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_75419/fast && /usr/bin/make -f CMakeFiles/cmTC_75419.dir/build.make CMakeFiles/cmTC_75419.dir/build
+make[1]: Entrando no diretório '/home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75419.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_75419.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75419.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_75419.dir/CheckFunctionExists.c.o  -o cmTC_75419  -lpthreads 
 /usr/bin/ld: não foi possível localizar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e8967.dir/build.make:87: cmTC_e8967] Erro 1
-make[1]: Saindo do diretório '/home/aristeujo/arm_pth/build/moveo_moveit/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e8967/fast] Erro 2
+make[1]: *** [CMakeFiles/cmTC_75419.dir/build.make:87: cmTC_75419] Erro 1
+make[1]: Saindo do diretório '/home/graest/ARM_PTH/build/moveo_moveit/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_75419/fast] Erro 2
 
 
 

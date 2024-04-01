@@ -1,22 +1,89 @@
-Symlinking /home/aristeujo/arm_pth/devel/lib/pkgconfig/moveo_moveit.pc
-Symlinking /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveo_objrec_publisher.py
-Symlinking /home/aristeujo/arm_pth/devel/lib/moveo_moveit/move_group_1
-Symlinking /home/aristeujo/arm_pth/devel/lib/moveo_moveit/cmake.lock
-Symlinking /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveit_convert
-Symlinking /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/__init__.py
-Symlinking /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/_ArmJointState.py
-Symlinking /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/__init__.py
-Symlinking /home/aristeujo/arm_pth/devel/include/moveo_moveit/ArmJointState.h
-Symlinking /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/ArmJointState.lisp
-Symlinking /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package_ArmJointState.lisp
-Symlinking /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/moveo_moveit-msg.asd
-Symlinking /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package.lisp
-Symlinking /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-paths.cmake
-Symlinking /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-extras.cmake
-Symlinking /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig-version.cmake
-Symlinking /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig.cmake
-Symlinking /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/_index.js
-Symlinking /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/_index.js
-Symlinking /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js
-Symlinking /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/manifest.l
-Symlinking /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/msg/ArmJointState.l
+Symlinking /home/graest/ARM_PTH/devel/include/moveo_moveit/ArmJointState.h
+Symlinking /home/graest/ARM_PTH/devel/lib/moveo_moveit/moveit_convert
+Symlinking /home/graest/ARM_PTH/devel/lib/moveo_moveit/move_group_1
+Symlinking /home/graest/ARM_PTH/devel/lib/moveo_moveit/moveo_objrec_publisher.py
+Symlinking /home/graest/ARM_PTH/devel/lib/moveo_moveit/cmake.lock
+Symlinking /home/graest/ARM_PTH/devel/lib/pkgconfig/moveo_moveit.pc
+Symlinking /home/graest/ARM_PTH/devel/lib/python3/dist-packages/moveo_moveit/__init__.py
+Symlinking /home/graest/ARM_PTH/devel/lib/python3/dist-packages/moveo_moveit/msg/_ArmJointState.py
+Symlinking /home/graest/ARM_PTH/devel/lib/python3/dist-packages/moveo_moveit/msg/__init__.py
+Symlinking /home/graest/ARM_PTH/devel/share/gennodejs/ros/moveo_moveit/_index.js
+Symlinking /home/graest/ARM_PTH/devel/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js
+Symlinking /home/graest/ARM_PTH/devel/share/gennodejs/ros/moveo_moveit/msg/_index.js
+Symlinking /home/graest/ARM_PTH/devel/share/moveo_moveit/cmake/moveo_moveit-msg-paths.cmake
+Symlinking /home/graest/ARM_PTH/devel/share/moveo_moveit/cmake/moveo_moveitConfig.cmake
+Symlinking /home/graest/ARM_PTH/devel/share/moveo_moveit/cmake/moveo_moveitConfig-version.cmake
+Symlinking /home/graest/ARM_PTH/devel/share/moveo_moveit/cmake/moveo_moveit-msg-extras.cmake
+Symlinking /home/graest/ARM_PTH/devel/share/roseus/ros/moveo_moveit/manifest.l
+Symlinking /home/graest/ARM_PTH/devel/share/roseus/ros/moveo_moveit/msg/ArmJointState.l
+Symlinking /home/graest/ARM_PTH/devel/share/common-lisp/ros/moveo_moveit/msg/_package_ArmJointState.lisp
+Symlinking /home/graest/ARM_PTH/devel/share/common-lisp/ros/moveo_moveit/msg/_package.lisp
+Symlinking /home/graest/ARM_PTH/devel/share/common-lisp/ros/moveo_moveit/msg/moveo_moveit-msg.asd
+Symlinking /home/graest/ARM_PTH/devel/share/common-lisp/ros/moveo_moveit/msg/ArmJointState.lisp
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/cmake.lock, /home/aristeujo/arm_pth/devel/./cmake.lock)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/pkgconfig/moveo_moveit.pc, /home/aristeujo/arm_pth/devel/lib/pkgconfig/moveo_moveit.pc)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/moveo_objrec_publisher.py, /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveo_objrec_publisher.py)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/move_group_1, /home/aristeujo/arm_pth/devel/lib/moveo_moveit/move_group_1)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/cmake.lock, /home/aristeujo/arm_pth/devel/lib/moveo_moveit/cmake.lock)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/moveit_convert, /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveit_convert)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/python3/dist-packages/moveo_moveit/__init__.py, /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/__init__.py)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/python3/dist-packages/moveo_moveit/msg/_ArmJointState.py, /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/_ArmJointState.py)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/python3/dist-packages/moveo_moveit/msg/__init__.py, /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/__init__.py)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/include/moveo_moveit/ArmJointState.h, /home/aristeujo/arm_pth/devel/include/moveo_moveit/ArmJointState.h)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/common-lisp/ros/moveo_moveit/msg/ArmJointState.lisp, /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/ArmJointState.lisp)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/common-lisp/ros/moveo_moveit/msg/_package_ArmJointState.lisp, /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package_ArmJointState.lisp)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/common-lisp/ros/moveo_moveit/msg/moveo_moveit-msg.asd, /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/moveo_moveit-msg.asd)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/common-lisp/ros/moveo_moveit/msg/_package.lisp, /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package.lisp)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/moveo_moveit/cmake/moveo_moveit-msg-paths.cmake, /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-paths.cmake)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/moveo_moveit/cmake/moveo_moveit-msg-extras.cmake, /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-extras.cmake)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/moveo_moveit/cmake/moveo_moveitConfig-version.cmake, /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig-version.cmake)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/moveo_moveit/cmake/moveo_moveitConfig.cmake, /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig.cmake)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/gennodejs/ros/moveo_moveit/_index.js, /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/_index.js)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/gennodejs/ros/moveo_moveit/msg/_index.js, /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/_index.js)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js, /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/roseus/ros/moveo_moveit/manifest.l, /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/manifest.l)
+Cleaning: (/home/aristeujo/arm_pth/devel/.private/moveo_moveit/share/roseus/ros/moveo_moveit/msg/ArmJointState.l, /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/msg/ArmJointState.l)
+Unlinking: /home/aristeujo/arm_pth/devel/lib/pkgconfig/moveo_moveit.pc
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveo_objrec_publisher.py
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/moveo_moveit/move_group_1
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/moveo_moveit/cmake.lock
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/moveo_moveit/moveit_convert
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/__init__.py
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/_ArmJointState.py
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/lib/python3/dist-packages/moveo_moveit/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/include/moveo_moveit/ArmJointState.h
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/ArmJointState.lisp
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package_ArmJointState.lisp
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/moveo_moveit-msg.asd
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/common-lisp/ros/moveo_moveit/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveit-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/moveo_moveit/cmake/moveo_moveitConfig.cmake
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/_index.js
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/gennodejs/ros/moveo_moveit/msg/ArmJointState.js
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/manifest.l
+Already unlinked: {}
+Unlinking: /home/aristeujo/arm_pth/devel/share/roseus/ros/moveo_moveit/msg/ArmJointState.l
+Already unlinked: {}

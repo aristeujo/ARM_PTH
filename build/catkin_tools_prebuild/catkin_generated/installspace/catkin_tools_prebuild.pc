@@ -1,4 +1,4 @@
-prefix=/home/aristeujo/arm_pth/install
+prefix=/home/graest/ARM_PTH/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

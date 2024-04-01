@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/move_group_1"
-  "/home/aristeujo/arm_pth/devel/.private/moveo_moveit/lib/moveo_moveit/move_group_1.pdb"
+  "/home/graest/ARM_PTH/devel/.private/moveo_moveit/lib/moveo_moveit/move_group_1"
+  "/home/graest/ARM_PTH/devel/.private/moveo_moveit/lib/moveo_moveit/move_group_1.pdb"
   "CMakeFiles/move_group_1.dir/src/move_group_interface_coor_1.cpp.o"
 )
 

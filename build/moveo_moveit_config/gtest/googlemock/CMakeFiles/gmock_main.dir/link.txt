@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/aristeujo/arm_pth/build/moveo_moveit_config/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/graest/ARM_PTH/build/moveo_moveit_config/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

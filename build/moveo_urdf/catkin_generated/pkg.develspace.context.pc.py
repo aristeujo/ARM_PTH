@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "moveo_urdf"
-PROJECT_SPACE_DIR = "/home/aristeujo/arm_pth/devel/.private/moveo_urdf"
+PROJECT_SPACE_DIR = "/home/graest/ARM_PTH/devel/.private/moveo_urdf"
 PROJECT_VERSION = "1.0.0"

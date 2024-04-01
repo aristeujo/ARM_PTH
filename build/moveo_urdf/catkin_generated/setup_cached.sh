@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/aristeujo/arm_pth/devel/.private/moveo_urdf:$CMAKE_PREFIX_PATH"
-export PWD='/home/aristeujo/arm_pth/build/moveo_urdf'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/aristeujo/arm_pth/devel/.private/moveo_urdf/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/aristeujo/arm_pth/src/ARM_PTH/moveo_urdf:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/graest/ARM_PTH/devel/.private/moveo_urdf:$CMAKE_PREFIX_PATH"
+export PWD='/home/graest/ARM_PTH/build/moveo_urdf'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/graest/ARM_PTH/devel/.private/moveo_urdf/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/graest/ARM_PTH/src/ARM_PTH/moveo_urdf:$ROS_PACKAGE_PATH"

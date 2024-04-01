@@ -1,4 +1,4 @@
-prefix=/home/aristeujo/arm_pth/install
+prefix=/home/graest/ARM_PTH/install
 
 Name: moveo_urdf
 Description: Description of moveo_urdf

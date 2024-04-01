@@ -1,4 +1,4 @@
-prefix=/home/aristeujo/arm_pth/devel/.private/moveo_moveit_config
+prefix=/home/graest/ARM_PTH/devel/.private/moveo_moveit_config
 
 Name: moveo_moveit_config
 Description: Description of moveo_moveit_config
