@@ -21,22 +21,22 @@
 // #define E1_ENABLE_PIN      30
 
 // Joint 2
-#define Z_STEP_PIN      34   
-#define Z_DIR_PIN       35 
+#define Z_STEP_PIN      36
+#define Z_DIR_PIN       37
 // #define Z_ENABLE_PIN       62
 // #define Z_MIN_PIN          18
 // #define Z_MAX_PIN          19
 
 // Joint 3
-#define Y_STEP_PIN       36  
-#define Y_DIR_PIN        37  
+#define Y_STEP_PIN       34
+#define Y_DIR_PIN        35  
 // #define Y_ENABLE_PIN       56
 // #define Y_MIN_PIN          14
 // #define Y_MAX_PIN          15
 
 // Joint 4
-#define X_STEP_PIN     6    
-#define X_DIR_PIN      3   
+#define X_STEP_PIN     3    
+#define X_DIR_PIN      6  
 // #define X_ENABLE_PIN       38
 
 // Joint 5 
@@ -102,8 +102,8 @@ void setup() {
   joint1.setMaxSpeed(400);
   joint2.setMaxSpeed(400);
   joint3.setMaxSpeed(400);
-  joint4.setMaxSpeed(200);
-  joint5.setMaxSpeed(200);
+  joint4.setMaxSpeed(100);
+  joint5.setMaxSpeed(100);
 
   // Then give them to MultiStepper to manage
   steppers.addStepper(joint1);
@@ -126,7 +126,7 @@ void loop() {
     positions[1] = -joint_step[1]; 
     positions[2] = joint_step[2]; 
     positions[3] = joint_step[3]; 
-    positions[4] = -joint_step[4]; 
+    positions[4] = joint_step[4]; 
 
     // positions[0] = -joint_step[0]; // negated since the real robot rotates in the opposite direction as ROS
     // positions[1] = joint_step[1]; 
